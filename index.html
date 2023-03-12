@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Css-position</title>
+  </head>
+  <body>
+    <h1 class="naslov-primaren centar-text">Css position</h1>
+    <h2 class="text h2-text">
+      Css position property ovozmozuva bilo koj html element da se izvadi od
+      normalnata pozicija i da se pozicionira na bilo koe mesto na veb stranata.
+    </h2>
+    <h2>
+      Vo CSS na selektiranite elementi mozeme da gi primenime sledinte tipovi na
+      pozicioniranje:
+    </h2>
+    <ul>
+      <li>position:static;</li>
+      <li>position:relative;</li>
+      <li>position:absolute;</li>
+      <li>position:fixed;</li>
+      <li>position:sticky;</li>
+    </ul>
+    <h2>
+      Potoa elementot se pozicionira/izmestuva so dodavanje na nekoja vrednost
+      na slednite svojtva/properties: top, right, bottom, left
+    </h2>
+    <h3>
+      **********************************************************************************
+    </h3>
+
+    <h1 class="naslov-sekundaren">position:static;</h1>
+    <ul>
+      <li>elementite se po default static pozicionirani</li>
+      <li>
+        se prikazuvaat na veb stranata po onaj redosled kako sto se definirani
+        vo html fajlot
+      </li>
+      <li>top, left ,bottom, right ne deluvaat(funkcioniraat)</li>
+    </ul>
+    <h1>
+      **********************************************************************************
+    </h1>
+    <h1 class="naslov-sekundaren">position:relative;</h1>
+    <ul>
+      <li>
+        so position:relative bilo koj html element mozeme da go pomesteme od
+        normaliot tek so definiranje na nekoe property:top, left, bottom, right
+      </li>
+      <li>
+        elementot se pomestuva vo odnos na negovata normalna pozicija, ili so
+        drugi zborovi se pomestuva vo odnos na samiot sebe.
+      </li>
+      <li>
+        na mestoto na relativno pomesteniot element ostanuva prazen prostor
+      </li>
+      <li>relativno pomesteniot element gi pokriva drugite elementi</li>
+    </ul>
+    <h2>Primer za position:relative;</h2>
+    <div class="relative">
+      <p>Jas sum pozicioniran 'relative'</p>
+      <p>Za doma pozicioniraj me:</p>
+      <p>top:100px</p>
+      <p>left:300px</p>
+    </div>
+    <h1>
+      **********************************************************************************
+    </h1>
+    <h1 class="naslov-sekundaren">position:abosolute;</h1>
+    <ul>
+      <li>position:absolute se koristi najmnogu</li>
+      <li>elementot se posicionira vo odnos na negoviot parent element</li>
+      <li>Treba da se zapomnat dve pravila</li>
+      <li>prvo:elementot sto se pozicionira treba da ima position:absolute</li>
+      <li>vtoro:parent elementot treba da ima position:relative</li>
+    </ul>
+    <h2>primer za position:absolute</h2>
+    <div class="box-outside-relative">
+      Jas treba da sum pozicioniran relativno
+      <div class="box-inside-absolute">
+        <p>Jas treba da sum pozicioniran absolutno</p>
+        <p>Za doma:Probaj da me poziconiras vo centar na parent elementot</p>
+      </div>
+    </div>
+    <h1>
+      **********************************************************************************
+    </h1>
+    <h1 class="naslov-sekundaren">position:fixed;</h1>
+    <ul>
+      <li>
+        position:fixed go pozicionira elementot relativno vo odnos na
+        viewport/display
+      </li>
+      <li>elementot ostanuva na istoto mesto i dokulku ja skrolame stranata</li>
+      <li>se posicionira so:top, left, right, bottom properies</li>
+    </ul>
+
+    <button class="fixed">top &uarr;</button>
+    <h2>Primer za position:fixed;</h2>
+    <h3>Za doma:pozicioniraj go button elementot vo desen dolen agol</h3>
+    <h1>
+      **********************************************************************************
+    </h1>
+    <h1 class="naslov-sekundaren">position:sticky;</h1>
+
+    <ul>
+      <li>
+        position:sticky e koga nekoj element se dvizi pri skrolanje, a potoa se
+        zastanuva ili zaglavuva na nekoja pozicija koja se definira so top,
+        left, right, bottom properties.
+      </li>
+    </ul>
+    <h2>Primer za position:sticky;</h2>
+    <nav class="sticky">
+      <a href="#">link1</a>
+      <a href="#">link2</a>
+      <a href="#">link3</a>
+      <a href="#">link4</a>
+    </nav>
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit saepe
+      suscipit deleniti illum vitae culpa, quis ullam error repellendus maiores
+      natus porro quae optio voluptas, esse ut numquam blanditiis. Ipsam
+      perferendis tempora vel quos consectetur veniam dicta ad quaerat totam sit
+      dolor maiores quis voluptatem, saepe asperiores natus soluta possimus
+      officiis et deleniti modi pariatur! Similique unde exercitationem odio
+      aliquid id! Perspiciatis saepe nam architecto ab possimus magnam
+      dignissimos ut impedit accusamus voluptate asperiores eaque laboriosam
+      inventore error, dolorem vitae consequuntur debitis voluptatum quia
+      expedita recusandae cum. Voluptatem amet similique nulla! Sit quos
+      distinctio ipsa nobis voluptatibus soluta vitae. Nesciunt accusamus
+      facilis quis labore rerum dolorum voluptas saepe, nisi quos sequi velit
+      illum vel odit tenetur modi consequatur eum incidunt aspernatur molestias
+      alias in mollitia quam dicta exercitationem. Doloribus, commodi
+    </p>
+    <h3>Za doma:pozicioniraj go nav elementot sticky top:70px</h3>
+    <h1>
+      **********************************************************************************
+    </h1>
+  </body>
+</html>

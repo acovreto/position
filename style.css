@@ -1,0 +1,74 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 4rem;
+  min-height: 600vh;
+}
+
+.naslov-primaren {
+  font-size: 4rem;
+}
+.naslov-sekundaren {
+  margin-top: 100px;
+}
+.centar-text {
+  text-align: center;
+}
+ul {
+  background-color: lavender;
+}
+ul li {
+  font-size: 24px;
+}
+/* ****************************************
+position:relative
+**************************************** */
+.relative {
+  width: 150px;
+  height: 150px;
+  background-color: orangered;
+  color: white;
+  padding: 20px;
+}
+/* ****************************************
+position:absolute
+**************************************** */
+.box-outside-relative {
+  height: 400px;
+  width: 900px;
+  background-color: lavenderblush;
+  border: 3px solid brown;
+}
+
+.box-inside-absolute {
+  height: 150px;
+  width: 200px;
+
+  color: white;
+  background-color: brown;
+}
+/* ****************************************
+position:fixed
+**************************************** */
+.fixed {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  background-color: red;
+  border-radius: 50%;
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
+}
+/* ****************************************
+position:sticky
+**************************************** */
+.sticky {
+  background-color: green;
+  color: white;
+  width: 100%;
+}
+nav a {
+  display: inline-block;
+  padding: 10px 20px;
+  color: white;
+}
