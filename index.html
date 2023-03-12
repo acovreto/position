@@ -47,43 +47,49 @@
     <h1 class="naslov-sekundaren">position:relative;</h1>
     <ul>
       <li>
-        so position:relative bilo koj html element mozeme da go pomesteme od
+        So position:relative bilo koj html element mozeme da go pomesteme od
         normaliot tek so definiranje na nekoe property:top, left, bottom, right
       </li>
       <li>
-        elementot se pomestuva vo odnos na negovata normalna pozicija, ili so
+        Elementot se pomestuva vo odnos na negovata normalna polozba, ili so
         drugi zborovi se pomestuva vo odnos na samiot sebe.
       </li>
       <li>
-        na mestoto na relativno pomesteniot element ostanuva prazen prostor
+        Na mestoto na relativno pomesteniot element ostanuva prazen prostor
       </li>
-      <li>relativno pomesteniot element gi pokriva drugite elementi</li>
+      <li>Relativno pomesteniot element gi pokriva drugite elementi</li>
     </ul>
     <h2>Primer za position:relative;</h2>
     <div class="relative">
       <p>Jas sum pozicioniran 'relative'</p>
-      <p>Za doma pozicioniraj me:</p>
-      <p>top:100px</p>
-      <p>left:300px</p>
+      <p>Za doma: pozicioniraj me:</p>
+      <p>top:100px;left:-300px</p>
     </div>
     <h1>
       **********************************************************************************
     </h1>
     <h1 class="naslov-sekundaren">position:abosolute;</h1>
     <ul>
-      <li>position:absolute se koristi najmnogu</li>
-      <li>elementot se posicionira vo odnos na negoviot parent element</li>
+      <li>Position:absolute se koristi najmnogu</li>
+      <li>Elementot se posicionira vo odnos na negoviot parent element</li>
       <li>Treba da se zapomnat dve pravila</li>
-      <li>prvo:elementot sto se pozicionira treba da ima position:absolute</li>
-      <li>vtoro:parent elementot treba da ima position:relative</li>
+      <li>1. Elementot sto se pozicionira treba da ima position:absolute</li>
+      <li>2. Parent elementot treba da ima position:relative</li>
     </ul>
-    <h2>primer za position:absolute</h2>
+    <h2>Primer za position:absolute</h2>
     <div class="box-outside-relative">
       Jas treba da sum pozicioniran relativno
       <div class="box-inside-absolute">
         <p>Jas treba da sum pozicioniran absolutno</p>
         <p>Za doma:Probaj da me poziconiras vo centar na parent elementot</p>
       </div>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non reiciendis
+        delectus iure reprehenderit dolore animi enim assumenda explicabo
+        nostrum consequatur unde, debitis rerum laborum tempore qui ea
+        recusandae vitae eius. Quaerat deleniti nesciunt aut cupiditate commodi
+        obcaecati labore laboriosam in.
+      </p>
     </div>
     <h1>
       **********************************************************************************
@@ -91,11 +97,11 @@
     <h1 class="naslov-sekundaren">position:fixed;</h1>
     <ul>
       <li>
-        position:fixed go pozicionira elementot relativno vo odnos na
+        Position:fixed go pozicionira elementot relativno vo odnos na
         viewport/display
       </li>
-      <li>elementot ostanuva na istoto mesto i dokulku ja skrolame stranata</li>
-      <li>se posicionira so:top, left, right, bottom properies</li>
+      <li>Elementot ostanuva na istoto mesto i dokulku ja skrolame stranata</li>
+      <li>Se posicionira so:top, left, right, bottom properies</li>
     </ul>
 
     <button class="fixed">top &uarr;</button>
@@ -108,7 +114,7 @@
 
     <ul>
       <li>
-        position:sticky e koga nekoj element se dvizi pri skrolanje, a potoa se
+        Position:sticky e koga nekoj element se dvizi pri skrolanje, a potoa se
         zastanuva ili zaglavuva na nekoja pozicija koja se definira so top,
         left, right, bottom properties.
       </li>
