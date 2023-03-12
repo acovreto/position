@@ -1,7 +1,7 @@
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   padding: 4rem;
-  min-height: 600vh;
+  min-height: 800vh;
 }
 
 .naslov-primaren {
@@ -27,7 +27,10 @@ position:relative
   height: 150px;
   background-color: orangered;
   color: white;
-  padding: 20px;
+  padding: 10px;
+  position: relative;
+  bottom: 150px;
+  right: 200px;
 }
 /* ****************************************
 position:absolute
@@ -37,6 +40,8 @@ position:absolute
   width: 900px;
   background-color: lavenderblush;
   border: 3px solid brown;
+  position: relative;
+  left: 50px;
 }
 
 .box-inside-absolute {
@@ -45,6 +50,9 @@ position:absolute
 
   color: white;
   background-color: brown;
+  position: absolute;
+  top: 30px;
+  right: 30px;
 }
 /* ****************************************
 position:fixed
@@ -58,6 +66,9 @@ position:fixed
   font-size: 24px;
   color: white;
   font-weight: bold;
+  position: fixed;
+  bottom: 50px;
+  right: 70px;
 }
 /* ****************************************
 position:sticky
@@ -66,6 +77,8 @@ position:sticky
   background-color: green;
   color: white;
   width: 100%;
+  position: sticky;
+  top: 0;
 }
 nav a {
   display: inline-block;
